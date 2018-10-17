@@ -90,6 +90,10 @@ a:hover {
   text-align: center;
 }
 
+.text-align {
+  text-align: justify;
+}
+
 .card {
   border: 1px solid #297373;
   border-radius: 5px;

@@ -47,6 +47,34 @@ a:hover {
   font-weight: bold;
 }
 
+#exo{
+  color: rgba(0, 0, 255, 0.5);
+}
+
+#sidebar ul {
+  list-style-type: none;
+}
+
+#sidebar {
+  background: #75B9BE;
+  position: fixed;
+  width: 175px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  line-height: 5;
+}
+
+#pp {
+  width: 30%;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+#page-content {
+  margin-left: 200px;
+  margin-right: 50px;
+}
+
 .img-center {
     display: block;
     margin-left: auto;
@@ -55,7 +83,7 @@ a:hover {
 }
 
 .img-circle {
-  border-radius: 150px;
+  border-radius: 200px;
 }
 
 .text-center {
@@ -70,8 +98,7 @@ a:hover {
   padding: 20;
   }
 
-.container {
-  width: 500px; /* This sets the width */
+.container {/* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
 }
 
